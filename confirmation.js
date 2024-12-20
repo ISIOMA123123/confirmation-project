@@ -24,6 +24,10 @@ function updateWeather(response) {
     timeElement = document.querySelector("#weatherTimeNow");
     timeElement.innerHTML = formatDate(date);
 
+    
+    iconElement = document.querySelector("#iconTemperature");
+    iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" alt="" class="icon">`;
+
 }
 
 function formatDate(date) {

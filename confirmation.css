@@ -91,16 +91,18 @@ p {
     display: flex;
 }
 
-.temperature-Degree-Icon {
+.temperature-icon {
     position: relative;
-    top: -8px;
-    font-size: 40px;
-    margin-right: 10px;
+    top: -1px;
+    width: 88px;
+    height: 88px;
+    margin-right: -23px;
 }
 
 .temperature-Degree-Value {
     font-size: 80px;
     font-weight: bold;
+    margin-left: 19px;
 }
 
 .temperature-Degree-Unit {
